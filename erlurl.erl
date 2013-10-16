@@ -47,11 +47,11 @@ protocol() ->
 userpass() ->
 
     sc:random_from([
-        { "",           [{user,nothing},{pass,nothing}] },
-        { "john@",      [{user,"john"}, {pass,nothing}] },
-        { "john:@",     [{user,"john"}, {pass,nothing}] },
-        { "john:pass@", [{user,"john"}, {pass,"pass"}]  },
-        { ":pass@",     [{user,nothing},{pass,"pass"}]  }
+        { "",           {nothing, nothing} },
+        { "john@",      {"john",  nothing} },
+        { "john:@",     {"john",  nothing} },
+        { "john:pass@", {"john",  "pass"}  },
+        { ":pass@",     {nothing, "pass"}  }
     ]).
 
 
