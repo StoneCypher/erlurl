@@ -35,3 +35,12 @@ Put it in `/foo/erlurl.erl`, then `c("/foo/erlurl.erl").`  then
 
 The notation is `{ Url, ParseResultList }`.  The parse result is the protocol, the user/pass, 
 the location, port, request target, matrix parameters, query parameters, and fragment of the url.
+
+
+
+
+
+Polemic :neckbeard:
+-------------------
+
+`erlurl` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
